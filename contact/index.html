@@ -13,10 +13,10 @@ description: Contact YKM Studio for game support, privacy requests or business i
 </div>
 
 <h2>Help with a game</h2>
-<p>Please tell us which game you are playing, your device model and iOS version, and what happened. A screenshot helps a lot. You can also write to the address on each game's support page:</p>
+<p>Please tell us which game you are playing, your device model and iOS version, and what happened. A screenshot helps a lot. Each game's support page also answers common questions:</p>
 <ul>
 {% for g in site.data.games %}
-  <li><a href="{{ '/' | append: g.slug | append: '/' | relative_url }}">{{ g.name }}</a>: <a href="mailto:{{ g.email }}">{{ g.email }}</a></li>
+  <li><a href="{{ '/' | append: g.slug | append: '/' | relative_url }}">{{ g.name }}</a></li>
 {% endfor %}
 </ul>
 
