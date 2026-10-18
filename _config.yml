@@ -9,3 +9,4 @@ email: ykm.studio.development@gmail.com
 # Pages keep their file names (e.g. /blockstreak/privacy.html); the games and App Store Connect link to these exact URLs.
 exclude:
   - README.md
+  - APP_STORE_CONNECT.md
