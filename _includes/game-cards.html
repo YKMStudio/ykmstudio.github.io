@@ -1,0 +1,10 @@
+<div class="games">
+{% for g in site.data.games %}
+  <a class="card" href="{{ '/' | append: g.slug | append: '/' | relative_url }}">
+    <img src="{{ '/assets/icons/' | append: g.slug | append: '.png' | relative_url }}" alt="" width="64" height="64" loading="lazy">
+    <p class="card-genre">{{ g.genre }}</p>
+    <p class="card-title">{{ g.name }}</p>
+    <p class="card-text">{{ g.tagline }}</p>
+  </a>
+{% endfor %}
+</div>

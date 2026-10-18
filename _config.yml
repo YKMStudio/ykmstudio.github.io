@@ -1,0 +1,11 @@
+title: YKM Studio
+description: Small, calm mobile games for iPhone, made by YKM Studio.
+url: https://ykmstudio.github.io
+baseurl: ""
+
+# General studio address (games may use their own support address, see _data/games.yml).
+email: ykm.studio.support@gmail.com
+
+# Pages keep their file names (e.g. /blockstreak/privacy.html); the games and App Store Connect link to these exact URLs.
+exclude:
+  - README.md

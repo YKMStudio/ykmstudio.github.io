@@ -1,0 +1,43 @@
+# One entry per game. The slug is the folder name and the URL: https://ykmstudio.github.io/<slug>/
+# Every game folder has: index.html (about + support), privacy.html, privacy-tr.html, terms.html.
+# app_store: fill in the App Store link once the game is live; the "Download" button appears then.
+
+- slug: blockstreak
+  name: Block Streak
+  store_name: "Block Streak: Puzzle Game"
+  genre: Block puzzle
+  tagline: Fill rows, columns and 3x3 squares, chain your clears and keep the streak alive.
+  email: ykm.studio.support@gmail.com
+  app_store: ""
+
+- slug: colorsort
+  name: Color Sort
+  store_name: Color Sort - Water Puzzle
+  genre: Sorting puzzle
+  tagline: Pour colored liquids between tubes and bring a faded coral reef back to life.
+  email: ykm.studio.development@gmail.com
+  app_store: ""
+
+- slug: flowdots
+  name: Flow Dots
+  store_name: Flow Dots
+  genre: Logic puzzle
+  tagline: Connect every pair of glowing dots and fill the whole board. New puzzles every day.
+  email: ykm.studio.development@gmail.com
+  app_store: ""
+
+- slug: dunkwings
+  name: Dunk Wings
+  store_name: Dunk Wings
+  genre: Arcade
+  tagline: Tap to fly a winged ball through the hoops. Swish in a row and set it on fire.
+  email: ykm.studio.development@gmail.com
+  app_store: ""
+
+- slug: arrowshift
+  name: Arrow Shift
+  store_name: Arrow Shift
+  genre: Logic puzzle
+  tagline: Tap winding arrows to slide them off the board. Find the right order and clear them all.
+  email: ykm.studio.development@gmail.com
+  app_store: ""

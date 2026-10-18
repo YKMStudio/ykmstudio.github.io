@@ -1,0 +1,27 @@
+---
+layout: default
+title: Contact
+nav: contact
+description: Contact YKM Studio for game support, privacy requests or business inquiries.
+---
+<h1>Contact</h1>
+<p class="lead">We read every message and usually answer within a few days.</p>
+
+<div class="contact-box">
+  <p class="muted">Email</p>
+  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+</div>
+
+<h2>Help with a game</h2>
+<p>Please tell us which game you are playing, your device model and iOS version, and what happened. A screenshot helps a lot. You can also write to the address on each game's support page:</p>
+<ul>
+{% for g in site.data.games %}
+  <li><a href="{{ '/' | append: g.slug | append: '/' | relative_url }}">{{ g.name }}</a>: <a href="mailto:{{ g.email }}">{{ g.email }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Privacy requests</h2>
+<p>To ask about, correct or delete data related to one of our games, email us and name the game. Each game's privacy policy explains what it uses; our games have no accounts and the data we receive is not linked to your identity.</p>
+
+<h2>Business</h2>
+<p>For partnerships, press or other inquiries, email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>

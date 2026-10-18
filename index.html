@@ -1,23 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>YKM Studio</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<main>
-  <p class="brand">YKM Studio</p>
-  <h1>Our games</h1>
-  <p>Relaxing puzzle games for iPhone.</p>
+---
+layout: default
+description: YKM Studio makes small, calm puzzle and arcade games for iPhone.
+---
+<p class="kicker">Independent game studio</p>
+<h1>Small games, made with care.</h1>
+<p class="lead">YKM Studio makes calm puzzle and quick arcade games for iPhone: easy to pick up, satisfying to master, and fair to play.</p>
 
-  <h2><a href="blockstreak/">Block Streak</a></h2>
-  <p>A relaxing 9x9 block puzzle. Fill rows, columns and 3x3 squares, chain your clears and keep the streak alive.</p>
-  <p class="links"><a href="blockstreak/">Support</a> · <a href="blockstreak/privacy.html">Privacy Policy</a></p>
+<h2>Our games</h2>
+{% include game-cards.html %}
 
-  <h2>Contact</h2>
-  <p><a href="mailto:ykm.studio.support@gmail.com">ykm.studio.support@gmail.com</a></p>
-</main>
-</body>
-</html>
+<h2>Need help with a game?</h2>
+<p>Every game has its own support page with answers to common questions, its privacy policy and terms of use. Pick a game above, or <a href="{{ '/contact/' | relative_url }}">contact us</a>.</p>

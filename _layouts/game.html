@@ -1,0 +1,22 @@
+---
+layout: default
+nav: games
+---
+{% assign game = site.data.games | where: "slug", page.game | first %}
+{% assign base = '/' | append: game.slug | append: '/' %}
+<div class="game-head">
+  <img class="game-icon" src="{{ '/assets/icons/' | append: game.slug | append: '.png' | relative_url }}" alt="" width="72" height="72">
+  <div>
+    <p class="kicker" lang="en">{{ game.genre }}</p>
+    <p class="game-name">{{ game.name }}</p>
+  </div>
+</div>
+<nav class="tabs" aria-label="{{ game.name }}">
+  <a href="{{ base | relative_url }}"{% if page.tab == 'support' %} aria-current="page"{% endif %}>Support</a>
+  <a href="{{ base | append: 'privacy.html' | relative_url }}"{% if page.tab == 'privacy' %} aria-current="page"{% endif %}>Privacy Policy</a>
+  <a href="{{ base | append: 'privacy-tr.html' | relative_url }}" lang="tr"{% if page.tab == 'privacy-tr' %} aria-current="page"{% endif %}>Gizlilik (TR)</a>
+  <a href="{{ base | append: 'terms.html' | relative_url }}"{% if page.tab == 'terms' %} aria-current="page"{% endif %}>Terms of Use</a>
+</nav>
+<article class="doc">
+{{ content }}
+</article>
