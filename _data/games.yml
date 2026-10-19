@@ -41,3 +41,11 @@
   tagline: Tap winding arrows to slide them off the board. Find the right order and clear them all.
   email: ykm.studio.development@gmail.com
   app_store: ""
+
+- slug: stoptimer
+  name: StopTimer
+  store_name: "StopTimer: Timing Challenge"
+  genre: Timing challenge
+  tagline: Tap to start the clock, tap again to stop it right on the target. 300 levels, a daily challenge and a 2-player duel.
+  email: ykm.studio.development@gmail.com
+  app_store: ""
