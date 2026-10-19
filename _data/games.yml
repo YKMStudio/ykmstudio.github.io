@@ -4,7 +4,7 @@
 
 - slug: blockstreak
   name: Block Streak
-  store_name: "Block Streak: Puzzle Game"
+  store_name: "Block Streak: Block Puzzle"
   genre: Block puzzle
   tagline: Fill rows, columns and 3x3 squares, chain your clears and keep the streak alive.
   email: ykm.studio.development@gmail.com
@@ -12,7 +12,7 @@
 
 - slug: colorsort
   name: Color Sort
-  store_name: Color Sort - Water Puzzle
+  store_name: "Color Sort: Puzzle Game"
   genre: Sorting puzzle
   tagline: Pour colored liquids between tubes and bring a faded coral reef back to life.
   email: ykm.studio.development@gmail.com
@@ -20,7 +20,7 @@
 
 - slug: flowdots
   name: Flow Dots
-  store_name: Flow Dots
+  store_name: "Flow Dots: Puzzle Game"
   genre: Logic puzzle
   tagline: Connect every pair of glowing dots and fill the whole board. New puzzles every day.
   email: ykm.studio.development@gmail.com
@@ -28,7 +28,7 @@
 
 - slug: dunkwings
   name: Dunk Wings
-  store_name: Dunk Wings
+  store_name: "Dunk Wings: Arcade Game"
   genre: Arcade
   tagline: Tap to fly a winged ball through the hoops. Swish in a row and set it on fire.
   email: ykm.studio.development@gmail.com
@@ -36,7 +36,7 @@
 
 - slug: arrowshift
   name: Arrow Shift
-  store_name: Arrow Shift
+  store_name: "Arrow Shift: Puzzle Game"
   genre: Logic puzzle
   tagline: Tap winding arrows to slide them off the board. Find the right order and clear them all.
   email: ykm.studio.development@gmail.com

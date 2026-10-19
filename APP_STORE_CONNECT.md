@@ -27,7 +27,7 @@ Marketing URL neden önemli: AdMob, `app-ads.txt` dosyasını App Store sayfası
 
 **"Yes, we collect data from this app"** seç, sonra aşağıdaki veri türlerini işaretle. Hepsinde **Linked to the user's identity = No**.
 
-### Color Sort, Flow Dots, Dunk Wings, Arrow Shift (ATT'siz AdMob + Firebase Analytics + Crashlytics)
+### Beş oyun (ATT'siz AdMob + Firebase Analytics; Block Streak hariç hepsinde Crashlytics)
 
 | Veri türü | Amaçlar | Takip için kullanılıyor mu |
 |---|---|---|
@@ -38,19 +38,7 @@ Marketing URL neden önemli: AdMob, `app-ads.txt` dosyasını App Store sayfası
 | Diagnostics → Crash Data | App Functionality, Analytics | No |
 | Diagnostics → Performance Data | Third-Party Advertising | No |
 
-Bu dört oyun "Allow Tracking" (ATT) penceresini hiç göstermiyor ve reklam kimliğini okumuyor. Bu yüzden "Do you or your third-party partners use data for tracking?" sorusunun cevabı **No**. Info.plist dosyasında `NSUserTrackingUsageDescription` olmamalı; dört oyunun iOS build adımı bunu zaten siliyor.
-
-### Block Streak (ATT'li AdMob + Firebase Analytics, Crashlytics yok)
-
-Block Streak açılışta "Allow Tracking" soruyor, yani reklam verisi takip için kullanılıyor:
-
-| Veri türü | Amaçlar | Takip için kullanılıyor mu |
-|---|---|---|
-| Identifiers → Device ID | Third-Party Advertising, Analytics | **Yes** |
-| Usage Data → Product Interaction | Analytics, Third-Party Advertising | **Yes** |
-| Usage Data → Advertising Data | Third-Party Advertising | **Yes** |
-| Location → Coarse Location | Third-Party Advertising | **Yes** |
-| Diagnostics → Performance Data | Third-Party Advertising | No |
+Hiçbir oyun "Allow Tracking" (ATT) penceresini göstermiyor ve reklam kimliğini okumuyor. Bu yüzden "Do you or your third-party partners use data for tracking?" sorusunun cevabı **No**. Info.plist dosyasında `NSUserTrackingUsageDescription` olmamalı; beş oyunun iOS build adımı bunu siliyor. Block Streak'te Crash Data işaretlenmez (Crashlytics yok), ama AdMob'un Performance Data'sı yine işaretlenir.
 
 Göndermeden önce Google'ın güncel listeleriyle karşılaştır: https://developers.google.com/admob/ios/privacy/data-disclosure ve https://firebase.google.com/docs/ios/app-store-data-collection
 
@@ -80,5 +68,4 @@ Geliştirici sayfası, aynı Apple geliştirici hesabıyla (MEHMET SONMEZ, id 18
 - [ ] Yukarıdaki üç adres telefondaki Safari'de açılıyor.
 - [ ] Oyunda: Ayarlar → Gizlilik Politikası / Kullanım Şartları / Bize Ulaşın / Diğer Oyunlar doğru yeri açıyor.
 - [ ] App Privacy cevapları 2. bölümle aynı.
-- [ ] Yalnızca Block Streak: "Allow Tracking" penceresi çıkıyor ve App Privacy'de tracking = Yes.
 - [ ] TestFlight build'inden gelen olaylar Firebase → Analytics → DebugView'da görünüyor (Xcode'da `-FIRDebugEnabled` ekle).
