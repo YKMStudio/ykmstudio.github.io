@@ -19,8 +19,8 @@
   app_store: ""
 
 - slug: flowdots
-  name: Flow Dots
-  store_name: "Flow Dots: Puzzle Game"
+  name: Line Dots
+  store_name: "Line Dots: Puzzle Game"
   genre: Logic puzzle
   tagline: Connect every pair of glowing dots and fill the whole board. New puzzles every day.
   email: ykm.studio.development@gmail.com
