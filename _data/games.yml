@@ -49,3 +49,11 @@
   tagline: Tap to start the clock, tap again to stop it right on the target. 300 levels, a daily challenge and a 2-player duel.
   email: ykm.studio.development@gmail.com
   app_store: ""
+
+- slug: farmmow
+  name: Farm Mow
+  store_name: "Farm Mow: Maze Puzzle"
+  genre: Maze puzzle
+  tagline: Swipe your mower through a farm maze and mow every patch of grass.
+  email: ykm.studio.development@gmail.com
+  app_store: ""

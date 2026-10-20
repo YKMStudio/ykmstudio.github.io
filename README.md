@@ -16,7 +16,7 @@ GitHub Pages bu repoyu Jekyll ile kendisi derler; ayrı bir build adımı yok, `
 | `/<oyun>/terms.html` | `<oyun>/terms.html` |
 | `/app-ads.txt` (AdMob, tüm oyunlar için tek dosya) | `app-ads.txt` |
 
-Oyunlar: `blockstreak`, `colorsort`, `flowdots`, `dunkwings`, `arrowshift`.
+Oyunlar: `blockstreak`, `colorsort`, `flowdots`, `dunkwings`, `arrowshift`, `farmmow`.
 
 - Ortak üst menü ve alt bilgi: `_layouts/default.html`; oyun sayfalarındaki ikon ve sekmeler: `_layouts/game.html`.
 - Oyun listesi (ad, tür, kısa açıklama, e-posta, App Store linki): `_data/games.yml`. Ana sayfa, Games, Contact ve alt bilgi buradan beslenir.
