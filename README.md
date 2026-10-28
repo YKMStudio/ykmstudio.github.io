@@ -1,6 +1,6 @@
-# ykmstudio.github.io
+# mekaxstudio.github.io
 
-YKM Studio web sitesi: https://ykmstudio.github.io
+Mekax Studio web sitesi: https://mekaxstudio.github.io
 
 GitHub Pages bu repoyu Jekyll ile kendisi derler; ayrı bir build adımı yok, `main`'e push etmek yeterli.
 

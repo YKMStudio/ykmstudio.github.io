@@ -1,4 +1,4 @@
-# One entry per game. The slug is the folder name and the URL: https://ykmstudio.github.io/<slug>/
+# One entry per game. The slug is the folder name and the URL: https://mekaxstudio.github.io/<slug>/
 # Every game folder has: index.html (about + support), privacy.html, privacy-tr.html, terms.html.
 # app_store: fill in the App Store link once the game is live; the "Download" button appears then.
 
@@ -7,7 +7,7 @@
   store_name: "Block Streak: Block Puzzle"
   genre: Block puzzle
   tagline: Fill rows, columns and 3x3 squares, chain your clears and keep the streak alive.
-  email: ykm.studio.development@gmail.com
+  email: mekaxstudio@gmail.com
   app_store: ""
 
 - slug: colorsort
@@ -15,7 +15,7 @@
   store_name: "Color Sort: Puzzle Game"
   genre: Sorting puzzle
   tagline: Pour colored liquids between tubes and bring a faded coral reef back to life.
-  email: ykm.studio.development@gmail.com
+  email: mekaxstudio@gmail.com
   app_store: ""
 
 - slug: flowdots
@@ -23,7 +23,7 @@
   store_name: "Line Dots: Puzzle Game"
   genre: Logic puzzle
   tagline: Connect every pair of glowing dots and fill the whole board. New puzzles every day.
-  email: ykm.studio.development@gmail.com
+  email: mekaxstudio@gmail.com
   app_store: ""
 
 - slug: dunkwings
@@ -31,7 +31,7 @@
   store_name: "Dunk Wings: Arcade Game"
   genre: Arcade
   tagline: Tap to fly a winged ball through the hoops. Swish in a row and set it on fire.
-  email: ykm.studio.development@gmail.com
+  email: mekaxstudio@gmail.com
   app_store: ""
 
 - slug: arrowshift
@@ -39,7 +39,7 @@
   store_name: "Meow Arrows: Cat Puzzle"
   genre: Logic puzzle
   tagline: Untangle the yarn arrows in the right order and rescue the cats caught in them.
-  email: ykm.studio.development@gmail.com
+  email: mekaxstudio@gmail.com
   app_store: ""
 
 - slug: stoptimer
@@ -47,7 +47,7 @@
   store_name: "StopTimer: Timing Challenge"
   genre: Timing challenge
   tagline: Tap to start the clock, tap again to stop it right on the target. 300 levels, a daily challenge and a 2-player duel.
-  email: ykm.studio.development@gmail.com
+  email: mekaxstudio@gmail.com
   app_store: ""
 
 - slug: farmmow
@@ -55,5 +55,5 @@
   store_name: "Farm Mow: Maze Puzzle"
   genre: Maze puzzle
   tagline: Swipe your mower through a farm maze and mow every patch of grass.
-  email: ykm.studio.development@gmail.com
+  email: mekaxstudio@gmail.com
   app_store: ""

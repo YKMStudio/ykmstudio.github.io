@@ -12,7 +12,7 @@
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" lang="en" href="{{ '/' | relative_url }}">YKM Studio</a>
+    <a class="logo" lang="en" href="{{ '/' | relative_url }}">Mekax Studio</a>
     <nav>
       <a href="{{ '/games/' | relative_url }}"{% if page.nav == 'games' %} aria-current="page"{% endif %}>Games</a>
       <a href="{{ '/about/' | relative_url }}"{% if page.nav == 'about' %} aria-current="page"{% endif %}>About</a>
@@ -27,7 +27,7 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>© {{ site.time | date: '%Y' }} YKM Studio · <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p>© {{ site.time | date: '%Y' }} Mekax Studio · <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <p class="footer-links">{% for g in site.data.games %}<a href="{{ '/' | append: g.slug | append: '/' | relative_url }}">{{ g.name }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
   </div>
 </footer>

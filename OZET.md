@@ -41,10 +41,10 @@ Color Sort, Dunk Wings ve Flow Dots iPad'i de destekliyordu ama iPad ekran gör�
 | Alan | Ne yapıldı |
 |---|---|
 | App Privacy | Beş oyunda da aynı beyan yayınlandı: Device ID, Product Interaction, Advertising Data, Coarse Location, Crash Data, Performance Data; hepsi "kimliğe bağlı değil", **takip yok**. (Dunk Wings'te hiç beyan yoktu; Arrow Shift ve Block Streak yarımdı.) |
-| Support / Marketing URL | Color Sort ve Flow Dots'ta 7'şer dilde, Block Streak'te Türkçede `wewosoft.com` adresleri vardı (403 veriyordu). Hepsi `ykmstudio.github.io/<oyun>/` yapıldı. |
+| Support / Marketing URL | Color Sort ve Flow Dots'ta 7'şer dilde, Block Streak'te Türkçede `wewosoft.com` adresleri vardı (403 veriyordu). Hepsi `mekaxstudio.github.io/<oyun>/` yapıldı. |
 | Privacy Policy URL | Color Sort ve Flow Dots'ta 7'şer dilde, Block Streak'te Türkçede boştu. Dolduruldu (Türkçe → KVKK sayfası). |
 | İnceleme iletişim bilgisi | Dunk Wings ve Arrow Shift'te boştu; diğer oyunlardaki bilgilerinle dolduruldu. |
-| Copyright | Dunk Wings'te boştu: "2026 Mehmet Sönmez (YKM Studio)". |
+| Copyright | Dunk Wings'te boştu: "2026 Mehmet Sönmez (Mekax Studio)". |
 | İnceleme notları | Dunk Wings'e not eklendi; Block Streak'in notu ATT'siz hâle göre güncellendi. |
 | App Accessibility | Beşi için beyan taslağı kaydedildi (Color Sort ve Flow Dots: renge bağlı olmayan ayrım; Arrow Shift: azaltılmış hareket; diğerleri: listelenen özellik yok). Apple bunu ancak uygulama yayındayken yayınlamaya izin veriyor; yayından sonra "App Accessibility" sayfasından **Publish** ile yayınla. Gönderim için zorunlu değil. |
 | Fiyat / ülkeler | Beşi de ücretsiz, 173 ülke. |
@@ -52,7 +52,7 @@ Color Sort, Dunk Wings ve Flow Dots iPad'i de destekliyordu ama iPad ekran gör�
 
 Dokunulmayan alanlar: açıklama, anahtar kelimeler, tanıtım metni, uygulama adları ve alt başlıklar, kategori, yaş sınırı (hepsi 4+).
 
-## 6. Site (ykmstudio.github.io)
+## 6. Site (mekaxstudio.github.io)
 
 - Block Streak'in gizlilik sayfaları ATT ve Game Center olmadan güncellendi; destek sayfasından Game Center sözleri çıkarıldı.
 - Tüm yasal sayfalar oyunların App Store adlarını kullanıyor.
