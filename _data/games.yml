@@ -35,10 +35,10 @@
   app_store: ""
 
 - slug: arrowshift
-  name: Arrow Shift
-  store_name: "Arrow Shift: Puzzle Game"
+  name: Meow Arrows
+  store_name: "Meow Arrows: Cat Puzzle"
   genre: Logic puzzle
-  tagline: Tap winding arrows to slide them off the board. Find the right order and clear them all.
+  tagline: Untangle the yarn arrows in the right order and rescue the cats caught in them.
   email: ykm.studio.development@gmail.com
   app_store: ""
 

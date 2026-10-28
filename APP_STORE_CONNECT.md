@@ -12,7 +12,7 @@ Aşağıdaki her adres https://ykmstudio.github.io üzerinde gerçek bir sayfa a
 | Color Sort | com.ykmstudio.colorsort | https://ykmstudio.github.io/colorsort/privacy.html | https://ykmstudio.github.io/colorsort/ | https://ykmstudio.github.io/colorsort/ |
 | Flow Dots | com.ykmstudio.flowdots | https://ykmstudio.github.io/flowdots/privacy.html | https://ykmstudio.github.io/flowdots/ | https://ykmstudio.github.io/flowdots/ |
 | Dunk Wings | com.ykmstudio.dunkwings | https://ykmstudio.github.io/dunkwings/privacy.html | https://ykmstudio.github.io/dunkwings/ | https://ykmstudio.github.io/dunkwings/ |
-| Arrow Shift | com.ykmstudio.arrowshift | https://ykmstudio.github.io/arrowshift/privacy.html | https://ykmstudio.github.io/arrowshift/ | https://ykmstudio.github.io/arrowshift/ |
+| Meow Arrows (eski: Arrow Shift) | com.ykmstudio.arrowshift | https://ykmstudio.github.io/arrowshift/privacy.html | https://ykmstudio.github.io/arrowshift/ | https://ykmstudio.github.io/arrowshift/ |
 
 App Store Connect'te alanların yeri:
 
